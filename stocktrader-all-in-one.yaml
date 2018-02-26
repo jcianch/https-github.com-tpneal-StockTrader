@@ -78,7 +78,7 @@ spec:
   type: NodePort
   ports:
     - port: 9080
-      nodePort: 31003
+#      nodePort: 31003
   selector:
     app: loyalty-level
 ---
@@ -228,7 +228,7 @@ spec:
   type: NodePort
   ports:
     - port: 9080
-      nodePort: 31001
+#      nodePort: 31001
   selector:
     app: portfolio
 ---
@@ -290,7 +290,7 @@ spec:
   type: NodePort
   ports:
     - port: 9080
-      nodePort: 31002
+#      nodePort: 31002
   selector:
     app: stock-quote
 ---
